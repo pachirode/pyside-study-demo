@@ -18,7 +18,7 @@ if __name__ == '__main__':
     app = QGuiApplication(sys.argv)
 
     engine = QQmlApplicationEngine()
-    engine.load(os.fspath(Path(__file__).resolve().parent / "list-view.qml"))
+    engine.load(os.fspath(Path(__file__).resolve().parent / "layout.qml"))
 
     if not engine.rootObjects():
         sys.exit(-1)

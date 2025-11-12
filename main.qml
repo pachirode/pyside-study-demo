@@ -360,5 +360,9 @@ Window {
     //         bc.brightness = value
     //     }
     // }
+
+    custom_button{
+
+    }
 }
 
